@@ -1,0 +1,166 @@
+.menu {
+    width: 250px;
+}
+
+.menu ul {
+    list-style: none;
+    display: block;
+}
+
+.menu ul li a {
+    background: #242221;
+    color: #fff;
+    font: 14px verdana, arial;
+    padding: 20px 0px;
+    text-decoration: none;
+    text-align: center;
+    float: none;
+    display: block;
+    margin: 10px;
+    position: relative;
+}
+
+#header {
+    float: left;
+    width: 835px;
+    height: 99px;
+    margin-bottom: 10px;
+    padding: 0;
+    background-image: url('');
+}
+
+#anasayfa {
+    transition-duration: 0.3s;
+}
+
+#anasayfa:hover {
+    background-color: #4d10f7;
+}
+
+#form {
+    transition-duration: 0.3s;
+}
+
+#form:hover {
+    background-color: #4d10f7;
+}
+
+#haber {
+    transition-duration: 0.3s;
+}
+
+#haber:hover {
+    background-color: #4d10f7;
+}
+
+#ekipman {
+    transition-duration: 0.3s;
+}
+
+#ekipman:hover {
+    background-color: #4d10f7;
+}
+
+#milli {
+    transition-duration: 0.3s;
+}
+
+#milli:hover {
+    background-color: #4d10f7;
+}
+
+.header ul li a {
+    background: #242221;
+    text-decoration: none;
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font: 14px verdana, arial;
+    font-size: 35px;
+    color: rgb(7, 1, 1);
+    display: block;
+}
+
+.section-b {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section-b .box-item {
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: black;
+    background-color: rgb(206, 205, 204);
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+.section-b .box-item:first-child {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.section-b .box-item:last-child {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.section-b .box-item img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    min-height: 400px;
+}
+
+.section-b .box-item:hover {
+    transform: scale(1.0200);
+    box-shadow: 1px 1px 5px tomato, -1px -1px 5px tomato;
+}
+
+.section-b h2 {
+    color: brown;
+    font-weight: bold;
+}
+
+.menüler {
+    position: relative;
+    float: right;
+}
+
+.section-c {
+    width: 100%;
+}
+
+.section-c footer {
+    text-align: center;
+    width: 100%;
+    background-color: blue;
+    opacity: 0.7;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.section-c footer a {
+    color: white;
+    font-weight: bold;
+}
+
+.header .group {
+    background-color: #83807e;
+    height: 8rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    background-image: url('../img/kapak.jpg');
+}
+
+.header .group a {
+    display: block;
+    text-decoration: none;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(15, 15, 15);
+    padding: 50px 0px;
+}
